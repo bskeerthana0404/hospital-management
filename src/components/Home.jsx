@@ -4,7 +4,7 @@ import hospitalImage from "../assets/images2.jpeg";
 export default function Home() {
   return (
     <div className="home-container">
-      {/* Welcome section */}
+    
       <div className="home-content">
         <div className="home-card">
           <h1>Welcome to MediCare+ Hospital</h1>
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Services Section */}
+      
       <div className="services-section">
         <h2>Our Services</h2>
         <div className="services-grid">
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
+  
       <div className="why-choose-section">
         <h2>Why Choose MediCare+</h2>
         <ul>

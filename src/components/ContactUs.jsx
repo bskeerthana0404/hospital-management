@@ -1,20 +1,11 @@
-/*export default function ContactUs() {
-  return (
-    <div className="contact">
-      <h2>Contact Us</h2>
-      <p>Email: contact@medicareplus.com</p>
-      <p>Phone: +91 9876543210</p>
-      <p>Address: MediCare+ Hospital, Bangalore, India</p>
-    </div>
-  );
-}*/
+
 import "./ContactUs.css";
 
 export default function ContactUs() {
   return (
     <div className="contact-container">
       <div className="contact-card">
-        {/* Left Info Section */}
+        
         <div className="contact-info">
           <h2>Get in Touch 💬</h2>
           <p>
@@ -36,7 +27,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Right Contact Form */}
+       
         <div className="contact-form">
           <h3>Send us a Message 📨</h3>
           <form>

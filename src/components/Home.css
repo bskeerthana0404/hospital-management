@@ -7,7 +7,6 @@
   min-height: 100vh;
 }
 
-/* Top content (welcome + image) */
 .home-content {
   display: flex;
   align-items: center;

@@ -62,13 +62,10 @@ html, body, #root {
 .auth-card button:hover {
   background: #0056b3;
 }
-
-/* Smooth fade animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-/* src/components/Sidebar.css */
 .sidebar {
   position: fixed;
   left: 0;

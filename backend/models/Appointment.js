@@ -1,15 +1,4 @@
-/*import mongoose from "mongoose";
 
-const appointmentSchema = new mongoose.Schema({
-  patientName: String,
-  doctor: { type: mongoose.Schema.Types.ObjectId, ref: "Doctor" },
-  date: String,
-  time: String,
-});
-
-const Appointment = mongoose.model("Appointment", appointmentSchema);
-export default Appointment;
-*/
 import mongoose from "mongoose";
 
 const appointmentSchema = new mongoose.Schema({

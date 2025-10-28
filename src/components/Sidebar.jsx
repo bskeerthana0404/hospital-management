@@ -1,7 +1,7 @@
-// src/components/Sidebar.jsx
+
 import { Link, useLocation } from "react-router-dom";
 import { Home, Calendar, User, Phone } from "lucide-react";
-//import "./Sidebar.css";
+
 
 export default function Sidebar() {
   const location = useLocation();
