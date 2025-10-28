@@ -1,0 +1,74 @@
+.find-doctor-container {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9fcff;
+  min-height: 100vh;
+}
+
+.find-doctor-container h1 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.find-doctor-container p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.doctor-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.doctor-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.doctor-card h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.doctor-card p {
+  color: #007bff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.doctor-card span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .doctor-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doctor-card {
+    width: 80%;
+  }
+}

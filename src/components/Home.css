@@ -1,0 +1,104 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5fbff;
+  min-height: 100vh;
+}
+
+/* Top content (welcome + image) */
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-card h1 {
+  color: #0077b6;
+  margin-bottom: 15px;
+}
+
+.home-card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.image-section img {
+  width: 4000px;
+  height: 450px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.services-section h2 {
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Why Choose Us */
+.why-choose-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.why-choose-section h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.why-choose-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-section li {
+  margin: 8px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
