@@ -56,7 +56,7 @@ export default function Home() {
         </ul>
       </div>
 
-      {/* Footer */}
+
       <footer className="home-footer">
         <p>© 2025 MediCare+ Hospital. All rights reserved.</p>
       </footer>
