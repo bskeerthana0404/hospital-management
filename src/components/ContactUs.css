@@ -113,8 +113,6 @@
     transform: translateY(0);
   }
 }
-
-/* Responsive */
 @media (max-width: 850px) {
   .contact-card {
     flex-direction: column;

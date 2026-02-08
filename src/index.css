@@ -1,4 +1,3 @@
-
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -37,8 +36,6 @@ html, body, #root {
   font-size: 14px;
   margin-bottom: 25px;
 }
-
-/* Inputs and buttons */
 .auth-card input {
   width: 100%;
   padding: 12px;

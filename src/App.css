@@ -73,8 +73,6 @@ button {
   height: 100vh;
   background-color: #f5fbff;
 }
-
-/* Makes sure the login/register card looks elegant */
 .auth-card {
   background: white;
   padding: 40px 50px;
